@@ -67,7 +67,7 @@ print("IT BTEC Grade Calculator")
 for unit, _dict in course_units.items():
   user_input = input(f"Enter the grade you got for {unit}: ")
   _type = _dict.get('type')
-  glh = _dict.get('glh') #
+  glh = _dict.get('glh')
 
   while True:
     if user_input.upper() in unit_points[_type][glh].keys():
